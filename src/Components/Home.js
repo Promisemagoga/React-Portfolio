@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div className="home">
@@ -11,8 +13,8 @@ function Home() {
           such as bootstrap, javaScript, react.js and flutter.
         </p>
         <div className="homeButton">
-          <button className="resume-button">Resume</button>
-          <button className="projectsBtn">Projects</button>
+          <button className="resume-button"><Link to="/Resume">Resume</Link></button>
+          <button className="projectsBtn"><Link to="/Projects">Projects</Link></button>
         </div>
       </div>
       <img src="./Me2.jpg" alt="Me"/>
