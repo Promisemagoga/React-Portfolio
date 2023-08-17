@@ -13,8 +13,8 @@ function Home() {
           such as bootstrap, javaScript, react.js and flutter.
         </p>
         <div className="homeButton">
-          <button className="resume-button"><Link to="/Resume">Resume</Link></button>
-          <button className="projectsBtn"><Link to="/Projects">Projects</Link></button>
+          <button className="resume-button"><Link to="/Resume" className="homeLink">Resume</Link></button>
+          <button className="projectsBtn"><Link to="/Projects" className="homeLink">Projects</Link></button>
         </div>
       </div>
       <img src="./Me2.jpg" alt="Me"/>
