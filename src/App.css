@@ -163,6 +163,14 @@ span {
   width: 80%;
 }
 
+.card-title{
+  color: #ff8a00;
+}
+
+.card-text{
+  color: grey;
+}
+
 .resume h1 {
   font-size: 48px;
 }
