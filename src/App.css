@@ -540,14 +540,14 @@ span {
     width: 20%;
   }
 
-  .experience {
+  /* .experience {
     margin: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     column-gap: 15vw;
-  }
+  } */
 
   .footer {
 
@@ -562,8 +562,7 @@ span {
   .experience {
     margin: 30px;
     flex-direction: column-reverse;
-
-    /* column-gap: 15vw; */
+text-align: center;
   }
 
   .fa-download {
@@ -575,28 +574,6 @@ span {
     border-radius: 5px;
     margin-bottom: 20px;
   }
-
-  .cards {
-    display: flex;
-    flex-direction: column;
-
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 40px;
-    margin-top: 30px;
-  }
-  
-  /* .card{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 40px;
-    margin-top: 30px;
-  }  */
 
 
   .card-info {
@@ -612,6 +589,7 @@ span {
   .description {
     width: 200px;
     float: none;
+  text-align: left;
   }
 
   .cardMain {
@@ -619,8 +597,8 @@ span {
   }
 
   .resume h1 {
-    font-size: 30px;
+    font-size: 38px;
   }
-  
+
 
 }
