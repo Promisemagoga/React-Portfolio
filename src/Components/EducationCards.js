@@ -2,10 +2,10 @@ import educationData from "../educationData";
 
 function EducationCards() {
   return (
-    <div className="educationMain">
+    <div className="cardMain">
           <h2 className="edu-heading">Education</h2>
       {educationData.map((data) => (
-        <div class="card mb-3 cards">
+        <div class="card  cards">
         <div class="row no-gutters">
           <div class=" card-info">
             <p class="card-text"><small class="text-muted edu-date">{data.date}</small></p>
