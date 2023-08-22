@@ -129,14 +129,13 @@ span {
 }
 
 .resume {
-  /* width: 50%; */
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   flex: 1;
-  padding: 50px;
 }
 
 .projectMain{
@@ -180,8 +179,8 @@ span {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  column-gap: 15vw;
+  justify-content: space-between;
+  /* column-gap: 15vw; */
 }
 
 .experience button {
@@ -193,7 +192,7 @@ span {
 }
 
 .fa-download,
-.fa-wrench {
+.fa-wrench, .fa-code{
   margin-right: 20px;
 }
 
@@ -214,11 +213,25 @@ span {
   flex-direction: row;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  column-gap: 250px;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 40px;
   margin-top: 30px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.cardMain{
+  width: 100%;
 }
 
 .project_cards {
@@ -307,9 +320,9 @@ span {
   font-size: 16px;
 }
 
-.skills h1 {
+.skillHeading {
   font-size: 28px;
-  background-image: linear-gradient(45deg, #ff8a00, #e52e71);
+  background-image: linear-gradient(45deg, #ff8a00, #e52e71) !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -402,11 +415,25 @@ span {
 
 .description {
   width: 300px;
+  float: right;
 }
 
 .card-info {
+  width: 30%;
   background-color: #f8f9fa;
-  padding: 24px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.no-gutters{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.educationMain{
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -529,6 +556,46 @@ span {
   
     width: 100%;
   }
+
+  .experience {
+    margin: 30px;
+    flex-direction: column-reverse;
+  
+    /* column-gap: 15vw; */
+  }
+
+  .fa-download{
+     display: none;
+  }
+
+  .experience button {
+    padding: 10px ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  /* .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+  } */
+ 
 }
 
 
