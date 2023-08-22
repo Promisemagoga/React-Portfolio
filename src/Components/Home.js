@@ -18,7 +18,7 @@ function Home() {
           <button className="projectsBtn "><Link to="/Projects" className="homeLink">Projects</Link></button>
         </div>
       </div>
-      <img src="./Me2.jpg" alt="Me"/>
+      <img src={require("../assets/Me2.jpg")} alt="Me"/>
     </div>
   );
 }
