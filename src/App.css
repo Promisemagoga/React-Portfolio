@@ -61,6 +61,12 @@ h1 {
 
 .homeLink {
   color: #ffffff;
+  text-decoration: none;
+}
+
+.homeLink:hover{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .homeButton button {

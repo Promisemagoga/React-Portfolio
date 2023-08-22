@@ -13,9 +13,9 @@ function About() {
         announced as fundza cover letter 2022 competition winner.
       </p>
       <div className="SocialLinks">
-        <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-        <i className="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-github" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/promise-tshegofatso">  <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/PromiseTshegof1/">  <i className="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.github.com/Promisemagoga/"> <i class="fa fa-github" aria-hidden="true"></i></a>
       </div>
     </div>
   );

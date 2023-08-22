@@ -5,19 +5,19 @@ import Footer from './Footer'
 function Contact() {
   return (
     <div>
-        <NavBar/>
-        <div className='contactForm'>
-        <i class="fa fa-envelope-o" aria-hidden="true"></i> 
+      <NavBar />
+      <form className='contactForm' action="https://formspree.io/f/mknazdly" method="post">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
         <h3>Get in touch</h3>
         <p>Let's work together!</p>
-        <input type="text" placeholder='Full name'/>
-        <input type="text" placeholder='Full Name'/>
-        <input type="text" placeholder='Email adress'/>
-        <input type="text" placeholder='Phone number'/>
+        <input type="text" placeholder='Full name' />
+        <input type="text" placeholder='Full Name' />
+        <input type="text" placeholder='Email adress' />
+        <input type="text" placeholder='Phone number' />
         <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
         <button>Submit</button>
-        </div>
-        <Footer/>
+      </form>
+      <Footer />
     </div>
   )
 }

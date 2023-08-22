@@ -4,23 +4,23 @@ function NavBar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
-      <a className="navbar-brand logo" href="#">Promise Magoga.</a>
+      <a className="navbar-brand logo" href="/">Promise Magoga.</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active ">
-            <Link className="nav-link link" to="/">Home </Link>
+            <a className="nav-link link" href="/">Home </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link link" to="/Resume">Resume</Link>
+            <a className="nav-link link" href="/Resume">Resume</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link link" to="/Projects" >Projects</Link>
+            <a className="nav-link link" href="/Projects" >Projects</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link link" to="/ContactMe" >Contact</Link>
+            <a className="nav-link link" href="/ContactMe" >Contact</a>
           </li>
         </ul>
       </div>
