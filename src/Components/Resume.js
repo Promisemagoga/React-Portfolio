@@ -5,7 +5,22 @@ import Languages from "./Languages";
 import NavBar from "./NavBar";
 import Skills from "./Skills";
 
+import cv from '../files/myUpdatedCV.pdf'
+
 function Resume() {
+  const handleDownload = () => {
+    fetch(cv)
+      .then(res => res.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'myUpdatedCV.pdf';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
+  }
   return (
     <main >
       <NavBar />
@@ -14,7 +29,7 @@ function Resume() {
           <h1>Resume</h1>
           <div className="experience">
             <h2>Expirience</h2>
-            <button><i class="fa fa-download" aria-hidden="true"></i>Download Resume</button>
+            <button onClick={handleDownload}><i class="fa fa-download" aria-hidden="true"></i>Download Resume</button>
           </div>
           <ExperienceCards />
           <EducationCards />

@@ -10,11 +10,11 @@ function Contact() {
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
         <h3>Get in touch</h3>
         <p>Let's work together!</p>
-        <input type="text" placeholder='Full name' />
-        <input type="text" placeholder='Full Name' />
-        <input type="text" placeholder='Email adress' />
-        <input type="text" placeholder='Phone number' />
-        <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
+        <input type="text" placeholder='Full name' name='name' required/>
+        <input type="text" placeholder='Surname' name='surname'required/>
+        <input type="text" placeholder='Email adress' name='email' required/>
+        <input type="text" placeholder='Phone number' name='contact' required/>
+        <textarea name="message" id="" cols="30" rows="10" placeholder='Message' required></textarea>
         <button>Submit</button>
       </form>
       <Footer />
