@@ -23,7 +23,7 @@ export default [
         name: "pepeChain",
         description: "PepeChain is a new blockchain entirely built and designed to be community-driven",
         img: "pepeChain.png",
-        buttonLink: "https://untrained-chefs.webflow.io/"
+        buttonLink: "https://pepechain.vercel.app/"
 
     },
 ]
