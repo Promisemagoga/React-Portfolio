@@ -3,11 +3,10 @@
   margin: 0;
 }
 
-.logo {
-  color: #e52e71;
+.navbar{
+  background-color: #ffffff;
 }
-
-.nav-item a {
+.link {
   font-size: 20px;
 }
 
