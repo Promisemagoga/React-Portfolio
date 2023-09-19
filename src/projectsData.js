@@ -33,4 +33,11 @@ export default [
         buttonLink: "https://todo-list-app-beta-dun.vercel.app/"
 
     },
+    {
+        name: "Employee-Tracker Software",
+        description: "Track all the employees in the building",
+        img: "employee.png",
+        buttonLink: "https://employee-tracker-app-lyart.vercel.app/"
+
+    },
 ]
