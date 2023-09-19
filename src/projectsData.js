@@ -26,4 +26,11 @@ export default [
         buttonLink: "https://pepechain.vercel.app/"
 
     },
+    {
+        name: "Todo-List software",
+        description: "Manage your job and study with easy. These todo-list allows you to manage your task according to it's priority.",
+        img: "todolist.png",
+        buttonLink: "https://todo-list-app-beta-dun.vercel.app/"
+
+    },
 ]
