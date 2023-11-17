@@ -15,7 +15,7 @@ function Resume() {
         const url = window.URL.createObjectURL(new Blob([blob]));
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'myUpdatedCV.pdf';
+        a.download = 'myCv.pdf';
         document.body.appendChild(a);
         a.click();
         a.remove();
