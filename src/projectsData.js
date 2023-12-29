@@ -23,9 +23,9 @@ export default [
 
     {
         name: "TasteTrails",
-        description: " A resturant app made with react native. To try it out, download expo application on your phone and insert this link: Android:'exp://u.expo.dev/update/5eebc198-996e-49de-912c-c389393c2ed9'  ||  IOS: 'exp://u.expo.dev/update/f8b7e2bb-c5bf-476a-98bc-2150f19a94d1' ",
+        description: " A resturant app made with react native. ",
         img: "foodApp.png",
-        buttonLink: "#"
+        buttonLink: "/Direction1"
 
     },
     // {
@@ -44,9 +44,9 @@ export default [
     // },
     {
         name: "Shoping-List",
-        description: "Making your shopping easy with Shoping-List Application.To try it out, download expo application on your phone and insert this link: Android:'exp://u.expo.dev/update/0f6d82f0-ac8d-409f-a3d3-34c33ed0bd50'  ||  IOS: 'exp://u.expo.dev/update/803745c4-0a71-4b9f-929e-8b20d5a29c2f' ",
+        description: "Making your shopping easy with Shoping-List Application.",
         img: "shopping.png",
-        buttonLink: "https://untrained-chefs.webflow.io/"
+        buttonLink: "/Direction2"
 
     },
   

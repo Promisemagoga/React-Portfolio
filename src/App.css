@@ -3,6 +3,14 @@
   margin: 0;
 }
 
+.direction{
+  margin: 20px;
+}
+
+.direction li{
+  margin: 20px;
+}
+
 .navbar{
   background-color: #ffffff;
 }
