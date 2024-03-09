@@ -19,18 +19,33 @@
 }
 
 .home {
-  margin-top: 100px;
+  width: 100%;
+  height: fit-content;
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+.imgSide{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentSide{
+  width: 50%;
 }
 
 .home p {
   color: gray;
-  width: 35%;
 }
 
 .home h3 {
@@ -38,20 +53,22 @@
   background-image: linear-gradient(45deg, #ff8a00, #e52e71);
   width: fit-content;
   padding: 5px;
-  border-radius: 20px;
+  border-radius: 16px;
   margin-bottom: 20px;
-  font-size: 2vw;
+  font-size: 1.6vw;
 }
 
 h1 {
   background-image: linear-gradient(45deg, #ff8a00, #e52e71);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 2vw;
+  font-weight: bold;
 }
 
 .home img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border: double 9px transparent;
   border-radius: 100%;
   background-image: linear-gradient(white, white),
@@ -75,6 +92,8 @@ h1 {
   color: #ffffff;
   text-decoration: none;
 }
+
+
 
 .homeButton button {
   width: 20%;
@@ -112,6 +131,7 @@ span {
 .about p {
   margin-top: 20px;
   color: gray;
+  text-align: center;
   width: 50%;
 }
 
@@ -147,7 +167,7 @@ span {
 }
 
 .resume {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,6 +195,7 @@ span {
 }
 
 .project-card {
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
   width: 80%;
@@ -228,13 +249,14 @@ span {
 }
 
 .cards {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: #ffffff;
   border-radius: 10px;
-  padding: 40px;
+  padding: 20px;
   margin-top: 30px;
 }
 
@@ -253,6 +275,10 @@ span {
   width: 100%;
 }
 
+li{
+  color: gray;
+}
+
 .project_cards {
   display: flex;
   flex-direction: column;
@@ -260,9 +286,15 @@ span {
 }
 
 .btn {
-  background-color: #ff8a00;
+
   border: none;
   color: #ffffff;
+}
+
+.linkBtns{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
 }
 
 
@@ -334,18 +366,29 @@ span {
 .language h3 {
   background-color: #F8F9FA;
   padding: 20px;
-  margin: 20px;
+  margin: 20px 10px;
   border-radius: 30px;
   font-size: 16px;
 }
 
-/* .skillHeading {
+.stack h5{
+  color: #e52e71;
+}
 
-  background-image: linear-gradient(45deg, #ff8a00, #e52e71) !important;
+.stack ul{
+  margin-left: 20px;
+}
+
+
+
+.skillHeading {
+  background-image: linear-gradient(45deg, #ff8a00, #e52e71) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 3vw;
+  font-weight: bold;
 
-} */
+}
 
 .aboveFooterInfo {
   display: flex;
@@ -448,6 +491,7 @@ span {
 .no-gutters {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -459,6 +503,29 @@ span {
   .home {
     display: flex;
     flex-direction: column-reverse;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .imgSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skillHeading {
+    background-image: linear-gradient(45deg, #ff8a00, #e52e71) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+    font-weight: bold;
+  
+  }
+  
+  .contentSide{
+    width: 100%;
   }
 
   .home img {
@@ -473,11 +540,15 @@ span {
   }
 
   .home h3 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .home h1 {
-    font-size: 6vw;
+    font-size: 5vw;
+  }
+
+  h1{
+    font-size: 7vw;
   }
 
   .homeButton button {
@@ -594,14 +665,14 @@ text-align: center;
 
 
   .card-info {
-    width: 500px;
+    width: 100%;
   }
 
-  .card {
+  /* .card {
     width: 40vh;
    
   
-  }
+  } */
 
   .description {
     width: 200px;
@@ -610,7 +681,7 @@ text-align: center;
   }
 
   .cardMain {
-    width: 300px;
+    width: 350px;
   }
 
   .resume h1 {

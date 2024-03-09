@@ -1,4 +1,4 @@
-import languagesData from "../languagesData";
+import languagesData from "../Data/languages";
 
 function Languages() {
   return (
