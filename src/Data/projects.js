@@ -21,7 +21,7 @@ export default [
     },
     {
         name: "Limitless Horison",
-        techStack: ["HTML5","CSS3", "BootStrap", "BootStrap"],
+        techStack: ["HTML5","CSS3", "BootStrap"],
         description: "  Here is a great deal for your egg business. Get your customers big and fresh eggs with just one call.",
         img: "limitless.png",
         buttonLink: "https://promisemagoga.github.io/Limitless-Horison/",
