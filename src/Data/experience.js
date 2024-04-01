@@ -11,6 +11,17 @@ export default [
     ]
   },
   {
+    date: "March 2024 - March 2024",
+    designation: "Web developer facilitator",
+    companyName: "AfricaKidsCode",
+    location: "Mpumalanga, Volkrust",
+    description: [ "Introduced students to technopreneurship and design thinking, and guided them in applying these principles to a given problem statement. Students were then able to build their solution using HTML, CSS, and Bootstrap with my assistance.",
+    "Enhanced students engagement by incorporating interactive activities and group discussions in program sessions, promoting collaboration and teamwork.",
+    "Enhanced program effectiveness by collaborating with colleagues to review and revise curriculum content regularly."
+    ]
+      
+  },
+  {
     date: "June 2023 - December 2023",
     designation: "Software developer trainee",
     companyName: "Mlab South Africa",
