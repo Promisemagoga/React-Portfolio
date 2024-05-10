@@ -20,12 +20,12 @@ export default [
 
     },
     {
-        name: "Limitless Horison",
-        techStack: ["HTML5","CSS3", "BootStrap"],
-        description: "  Here is a great deal for your egg business. Get your customers big and fresh eggs with just one call.",
-        img: "limitless.png",
-        buttonLink: "https://promisemagoga.github.io/Limitless-Horison/",
-        githubLink: "https://github.com/Promisemagoga/Limitless-Horison.git"
+        name: "Miss Diamonds Treacts",
+        techStack: ["HTML5","CSS3", "JaaScript"],
+        description:"Are you around Pretoria? Book yourself and your loved ones a taste of relaxation at MS Diamonds Treat, a spa business located in Ga-Rankua.",
+        img: "diamondShot.PNG",
+        buttonLink: "https://ms-diamonds-treats.vercel.app/index.html",
+        githubLink: "https://github.com/Promisemagoga/MS-Diamonds-Treats.git"
     },
 
     {
