@@ -13,7 +13,7 @@ function Home() {
           <p>Hello 🖐️ my name is </p>
           <h1>Promise Tshegofatso Magoga</h1>
           <p>
-            I am a young, energetic, optimistic, and hardworking web developer with 1-2 years of
+            I am a young, energetic, optimistic, and hardworking web developer with 2-3 years of
             experience in building user-friendly web applications using HTML5, CSS3, JavaScript, React.js, Bootstrap, Material UI.
             I am also proficient in other technologies and tools such as Figma, Webflow, and
             Firebase, etc. As an open-minded individual, I enjoy solving problems through technology. I am
