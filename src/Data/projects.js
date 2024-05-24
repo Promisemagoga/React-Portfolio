@@ -1,11 +1,21 @@
 export default [
+    // {
+    //     name: "pepeChain",
+    //     techStack: ["React", "BootStrap"],
+    //     description: "PepeChain is a new blockchain entirely built and designed to be community-driven",
+    //     img: "pepeChain.png",
+    //     buttonLink: "https://pepechain.vercel.app/",
+    //     githubLink: "https://github.com/Promisemagoga/pepechain.git",
+
+    // },
+
     {
-        name: "pepeChain",
-        techStack: ["React", "BootStrap"],
-        description: "PepeChain is a new blockchain entirely built and designed to be community-driven",
-        img: "pepeChain.png",
-        buttonLink: "https://pepechain.vercel.app/",
-        githubLink: "https://github.com/Promisemagoga/pepechain.git",
+        name: "Ezamazwe EduTech",
+        techStack: ["React", "Material UI","Node.js", "Firebase"],
+        description: "My team and I built a learning management system like udemy, but its focus was delivering content on CAPS, IEB, and entrepreneurial skills. This was part of our final project as CodeTribers.",
+        img: "Ezamazwe.PNG",
+        buttonLink: "https://edutech-app-eecfd.web.app/",
+        githubLink: "",
 
     },
 
